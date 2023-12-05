@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/ico/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../dist/output.css">
@@ -11,23 +12,42 @@
 </head>
 
 <body>
-    <header class="headernav">
-        <nav class="container relative flex items-center justify-between mx-auto p-6">
+
+    <nav class="relative container mx-auto p-5">
+        <div class="flex items-center justify-between pt-2">
             <div>
-                <img src="assets/ico/Logo.svg" alt="" srcset="" width="190" height="190">
+                <img src="assets/ico/Logo.svg" alt="PrimeCRM" width="160">
             </div>
-            <!-- Menu links -->
-            <div class="flex space-x-6 items-center">
-                <a href="">Solutions</a>
-                <a href="">Industries</a>
-                <a href="">Products</a>
-                <a href="">Resources</a>
-                <a href="">Pricing</a>
-                <button class="bg-blackPrimary text-secondary04 px-10 py-4 rounded-md">Login</button>
+            <div class="hidden lg:flex items-center space-x-8 ml-56">
+                <a class="menu-items" href="">Solutions</a>
+                <a class="menu-items" href="">Industriels</a>
+                <a class="menu-items" href="">Products</a>
+                <a class="menu-items" href="">Resources</a>
+                <a class="menu-items" href="">Pricing</a>
+                <button
+                    class="bg-blackPrimary text-white px-7 py-3 rounded-md transition-all duration-300 hover:bg-white hover:text-blackPrimary">
+                    <h2>Login</h2>
+                </button>
             </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section id="hero">
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 spcae-y-0 md:space-y-0">
+            <!-- The left items -->
+            <div class="flex flex-col mb-32 space-y-10 md:w-1/2">
+                <h1 class="max-w-screen-md text-4xl font-semibold text-center md:text-4xl md:text-left">The CRM Platform
+                    Your
+                    Whole
+                    Business Will Love
+                </h1>
+                <p class="max-w-sm text-center text-blackPrimary md:text-left">Provide excellent customer service.
+                    Answer more tickets all-in-one Primarily software.</p>
             </div>
-        </nav>
-    </header>
+            <!-- images -->
+        </div>
+    </section>
 
 </body>
 

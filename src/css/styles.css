@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu-items {
+    @apply transition-all duration-300;
+}
+
+.menu-items:hover {
+    @apply text-white;
+}
