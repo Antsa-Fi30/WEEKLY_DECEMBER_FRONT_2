@@ -9,3 +9,19 @@
 .menu-items:hover {
     @apply text-white;
 }
+
+.primary-button {
+    @apply bg-blackPrimary text-white px-7 py-3 rounded-md font-semibold transition-all duration-300
+}
+
+.primary-button:hover {
+    @apply bg-white text-blackPrimary
+}
+
+.button {
+    @apply bg-blackPrimary text-white px-7 py-3 rounded-md transition-all duration-300
+}
+
+.button:hover {
+    @apply bg-bluePrimary text-blackPrimary
+}

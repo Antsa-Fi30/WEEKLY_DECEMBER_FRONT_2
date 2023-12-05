@@ -6,7 +6,9 @@ body {
     ;
     background-repeat: no-repeat;
     background-position: top right, top;
-    background-size: 50% 35rem, cover;
+    background-position-x: right, 15vh;
+    background-position-y: top, 13vh;
+    background-size: 53% 38rem, 83%;
     z-index: 12;
 }
 
