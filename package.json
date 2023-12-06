@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/css/styles.css -o ./dist/output.css",
-    "watch": "tailwindcss -i ./src/css/styles.css -o ./dist/output.css --watch"
+    "build": "tailwindcss -i ./css/styles.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./css/styles.css -o ./dist/output.css --watch"
   },
   "author": "",
   "license": "ISC",
