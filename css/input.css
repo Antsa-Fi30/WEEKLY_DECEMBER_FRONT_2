@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.primary-button {
+    @apply py-3 px-9 bg-yellowColor text-blueColor transition-all duration-300;
+    font-family: "Cardo";
+    font-weight: 700;
+    font-size: 19px;
+}
+.primary-button:hover {
+    @apply bg-blueColor text-yellowColor rounded-xl;
+    box-shadow: 0px 0px 20px #ffca42;
+}
+.primary-button:active {
+    box-shadow: 0px 0px 45px #ffca42;
+    transition: all 1ms ease;
+}
