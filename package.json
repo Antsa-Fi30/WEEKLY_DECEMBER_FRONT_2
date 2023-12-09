@@ -1,11 +1,11 @@
 {
-  "name": "weekly_december_front_1",
+  "name": "weekly_december_front_2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./css/styles.css -o ./dist/output.css",
-    "watch": "tailwindcss -i ./css/styles.css -o ./dist/output.css --watch"
+    "build": "tailwindcss -i ./css/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
   },
   "author": "",
   "license": "ISC",
