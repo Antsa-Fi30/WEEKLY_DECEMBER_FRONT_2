@@ -19,84 +19,83 @@
   </head>
   <body>
     <header class="heading">
-      <nav class="relative container w-[1,299.25px] mx-auto p-8">
-        <div class="flex items-center justify-between gap-[251px]">
-          <!-- Brand and Links social  -->
-          <div class="flex items-center justify-center space-x-8">
-            <a href="/"
-              ><img
-                src="assets/ico/Brand.svg"
-                alt=""
-                width="118.25px"
-                height="35px"
-            /></a>
-            <div class="flex flex-row items-center space-x-2">
-              <a href="/"
+      <nav class="relative container w-auto mx-auto p-8">
+        <div class="flex items-center justify-between">
+          <div class="pt-2 flex items-center">
+            <img
+              src="assets/ico/Brand.svg"
+              alt=""
+              width="100"
+              height="100" />
+            <div class="ml-4 flex space-x-3 items-center">
+              <a href=""
                 ><img
                   src="assets/ico/Facebook.svg"
                   alt=""
-                  width="45px"
-                  height="45px"
-              /></a>
-              <a href="/"
+                  width="40"
+                  height="40" /></a
+              ><a href=""
                 ><img
                   src="assets/ico/Twitter.svg"
                   alt=""
-                  width="45px"
-                  height="45px"
-              /></a>
-              <a href="/"
+                  width="40"
+                  height="40" /></a
+              ><a href=""
                 ><img
                   src="assets/ico/LinkedIn.svg"
                   alt=""
-                  width="45px"
-                  height="45px"
+                  width="40"
+                  height="40"
               /></a>
             </div>
           </div>
-          <!-- Links n Button -->
-          <div class="hidden space-x-8 xl:flex xl:flex-row xl:items-center">
+          <!-- Menu items -->
+          <div class="hidden lg:flex space-x-5 items-center">
             <a
               class="links"
-              href="#"
+              href=""
               >Home</a
             >
             <a
               class="links"
-              href="#"
+              href=""
               >Pages</a
             >
             <a
               class="links"
-              href="#"
+              href=""
               >About</a
             >
             <a
               class="links"
-              href="#"
+              href=""
               >Services</a
-            ><a
+            >
+            <a
               class="links"
-              href="#"
+              href=""
               >Contact</a
             >
             <a
               class="links"
-              href="#">
+              href="">
               <img
                 src="assets/ico/Cart.svg"
+                width="20"
+                height="20"
                 alt="" />
             </a>
-            <button class="primary-button">Order Today</button>
+            <button class="primary-button ml-4">Order Today</button>
           </div>
         </div>
       </nav>
+      <!-- Flex container -->
       <div
-        class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 xl:space-y-0 xl:flex-row">
+        class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-x-5 space-y-0 lg:space-y-32 lg:flex-row lg:space-x-4">
         <!-- Left item -->
-        <div class="flex flex-col mb-32 space-y-12 xl:w-1/2">
+        <div class="flex flex-col mt-10 mb-32 space-y-12 lg:w-1/2">
           <h1
-            class="textWelcome max-w-xl font-[Cardo] font-bold text-center xl:text-5xl xl:text-left">
+            class="textWelcome max-w-lg font-[Cardo] font-bold text-center lg:text-5lg lg:text-left">
             <div class="flex items-center space-x-5">
               <span
                 ><img
@@ -119,7 +118,7 @@
               >Read free demo</a
             >
           </div>
-          <div class="flex flex-row gap-[80px]">
+          <div class="flex flex-row space-x-8 items-center">
             <div class="flex items-center space-x-3">
               <div class="flex flex-col">
                 <div class="flex items-start space-x-2">
@@ -128,12 +127,11 @@
                       src="assets/ico/Point.svg"
                       alt=""
                       width="16px"
-                      height="16px"
-                      class="t-[7px]" />
+                      height="16px" />
                   </span>
                   <div class="flex flex-col space-y-4">
-                    <h3 class="label1">Pages :</h3>
-                    <p><span>586</span> pages</p>
+                    <h3 class="label1">Pages:</h3>
+                    <span>586 pages</span>
                   </div>
                 </div>
               </div>
@@ -146,12 +144,11 @@
                       src="assets/ico/Point.svg"
                       alt=""
                       width="16px"
-                      height="16px"
-                      class="t-[7px]" />
+                      height="16px" />
                   </span>
                   <div class="flex flex-col space-y-4">
-                    <h3 class="label1">Length :</h3>
-                    <p><span>10</span> Hours</p>
+                    <h3 class="label1">Length:</h3>
+                    <span>10 Hours</span>
                   </div>
                 </div>
               </div>
@@ -164,12 +161,151 @@
                       src="assets/ico/Point.svg"
                       alt=""
                       width="16px"
-                      height="16px"
-                      class="t-[7px]" />
+                      height="16px" />
                   </span>
                   <div class="flex flex-col space-y-4">
-                    <h3 class="label1">Ratings :</h3>
-                    <p><span>4.5/5</span> (305 ratings)</p>
+                    <h3 class="label1">Ratings:</h3>
+                    <span>4.5/5 (305 ratings)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Image -->
+        <div class="block lg:absolute lg:right-8 lg:top-5">
+          <img
+            src="assets/img/Book.png"
+            alt=""
+            width="500" />
+        </div>
+      </div>
+    </header>
+
+    <section
+      id="Author_book"
+      class="container justify-center text-center mx-auto my-[24%]">
+      <div>
+        <div class="flex flex-col space-y-2">
+          <div class="title text-center">Author’s Book Includes</div>
+          <img
+            src="assets/ico/Sep.svg"
+            alt=""
+            class="mx-auto" />
+        </div>
+        <div class="flex flex-row lg:flex-col lg:justify-between lg:space-x-5">
+          <!-- 1 -->
+          <div
+            class="flex flex-row lg:flex-col justify-between space-x-3 mt-20">
+            <img
+              src="assets/img/Book.png"
+              alt=""
+              width="300px"
+              height="400px" />
+            <div class="p-3">
+              <!-- content -->
+              <div class="w-[content] break-words p-3">
+                <h1>Atomic One’s</h1>
+                <span
+                  >Many variations of passages of Lorem Ipsum willing araise
+                  alteration in some form.</span
+                >
+              </div>
+              <!-- details -->
+              <div>
+                <div class="flex items-center space-x-3">
+                  <div class="flex flex-col">
+                    <div class="flex items-start space-x-2">
+                      <span
+                        ><img
+                          src="assets/ico/Point.svg"
+                          alt=""
+                          width="16px"
+                          height="16px" />
+                      </span>
+                      <div class="flex flex-col space-y-2">
+                        <h3 class="label1">Pages:</h3>
+                        <span>586 Pages</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                  <div class="flex flex-col">
+                    <div class="flex items-start space-x-2">
+                      <span
+                        ><img
+                          src="assets/ico/Point.svg"
+                          alt=""
+                          width="16px"
+                          height="16px" />
+                      </span>
+                      <div class="flex flex-col space-y-2">
+                        <h3 class="label1">Length:</h3>
+                        <span>10 Hours</span>
+                      </div>
+                    </div>
+                    <div class="flex flex-col mt-10">
+                      <button class="primary-button">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="flex flex-row justify-between space-x-3 mt-20">
+            <img
+              src="assets/ico/Book(1).png"
+              alt=""
+              width="300px"
+              height="400px" />
+            <div class="p-3">
+              <!-- content -->
+              <div class="break-words p-3">
+                <h1>Atomic One’s</h1>
+                <span
+                  >Many variations of passages of Lorem Ipsum willing araise
+                  alteration in some form.</span
+                >
+              </div>
+              <!-- details -->
+              <div>
+                <div class="flex items-center space-x-3">
+                  <div class="flex flex-col">
+                    <div class="flex items-start space-x-2">
+                      <span
+                        ><img
+                          src="assets/ico/Point.svg"
+                          alt=""
+                          width="16px"
+                          height="16px" />
+                      </span>
+                      <div class="flex flex-col space-y-2">
+                        <h3 class="label1">Pages:</h3>
+                        <span>586 Pages</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                  <div class="flex flex-col">
+                    <div class="flex items-start space-x-2">
+                      <span
+                        ><img
+                          src="assets/ico/Point.svg"
+                          alt=""
+                          width="16px"
+                          height="16px" />
+                      </span>
+                      <div class="flex flex-col space-y-2">
+                        <h3 class="label1">Length:</h3>
+                        <span>10 Hours</span>
+                      </div>
+                    </div>
+                    <div class="flex flex-col mt-10">
+                      <button class="primary-button">Order Now</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -177,6 +313,218 @@
           </div>
         </div>
       </div>
-    </header>
+    </section>
+
+    <section
+      id="about"
+      class="p-3 mb-10">
+      <div class="flex flex-col space-y-5 lg:flex-row lg:space-x-36">
+        <div>
+          <img
+            src="assets/ico/Image.png"
+            alt=""
+            width="590px"
+            height="690px" />
+        </div>
+        <div class="flex flex-col space-y-5 max-w-lg">
+          <span class="title">About Author</span>
+          <span class="mt-10"
+            ><img
+              src="assets/ico/Sep.svg"
+              alt=""
+          /></span>
+          <p class="relative mt-5">
+            All the Lorem Ipsum generators on the Internet tend to repeated
+            predefined chunks as necessary, making this the first true value
+            generator on the Internet. It uses a dictionary of over 200 Latin
+            words, combined with a handful.
+          </p>
+          <div class="mt-9 flex flex-row space-x-8">
+            <div>
+              <span class="title">02</span>
+              <p>Book Published</p>
+            </div>
+            <div>
+              <img
+                src="assets/ico/SepVerti.svg"
+                alt="" />
+            </div>
+            <div>
+              <span class="title">4.5</span>
+              <p>User Reviews</p>
+            </div>
+            <div>
+              <img
+                src="assets/ico/SepVerti.svg"
+                alt="" />
+            </div>
+            <div>
+              <span class="title">04</span>
+              <p>Best Seller Awards</p>
+            </div>
+            <div>
+              <img
+                src="assets/ico/SepVerti.svg"
+                alt="" />
+            </div>
+          </div>
+          <div class="flex bg-blueColor p-2 items-center space-x-5">
+            <div class="mr-5">
+              <img
+                src="assets/ico/QRCode.png"
+                alt="" />
+            </div>
+            <div class="space-y-5">
+              <span class="Name my-3">John Abraham , Ph.d</span>
+              <div>
+                <p>Mail : johnabraham@gmail.com</p>
+                <p>Phone : (+2) 123 545 9000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="Author_book"
+      class="container justify-center mx-auto my-[24%]">
+      <div class="flex flex-col space-y-4">
+        <div class="title text-center">Trusted by the Best</div>
+        <img
+          src="assets/ico/Sep.svg"
+          alt=""
+          class="mx-auto" />
+      </div>
+      <div
+        class="mt-48 flex flex-col space-y-14 text-center lg:flex-row lg:items-center lg:align-middle">
+        <!-- 1 -->
+        <div class="justify-center content-center">
+          <img
+            src="assets/ico/AmazonCorpLogo.svg"
+            alt=""
+            class="mx-auto pb-8" />
+
+          <span>Amazen Corp</span>
+          <p>A long established fact that a who looking at its layout.</p>
+        </div>
+        <!-- 2 -->
+        <div class="justify-center content-center">
+          <img
+            src="assets/ico/MeganBookLogo.svg"
+            alt=""
+            class="mx-auto pb-8" />
+
+          <span>Megan Books</span>
+          <p>A long established fact that a who looking at its layout.</p>
+        </div>
+        <!-- 3 -->
+        <div class="justify-center content-center">
+          <img
+            src="assets/ico/LosBookLogo.svg"
+            alt=""
+            class="mx-auto pb-8" />
+
+          <span>Los Book</span>
+          <p>A long established fact that a who looking at its layout.</p>
+        </div>
+        <!-- 4 -->
+        <div class="justify-center content-center">
+          <img
+            src="assets/ico/UrbanLibLogo.svg"
+            alt=""
+            class="mx-auto pb-9" />
+
+          <span>Urban Lib</span>
+          <p>A long established fact that a who looking at its layout.</p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="callout"
+      class="bg-blueColor p-9">
+      <div
+        class="flex flex-col-reverse p-6 space-y-0 lg:flex-row lg:items-center lg:content-center">
+        <div class="flex flex-col">
+          <span class="title1 text-white">Get Book Copy Today!</span>
+          <div class="mb-5">
+            <img
+              src="assets/ico/Sep.svg"
+              alt=""
+              class="mt-5" />
+          </div>
+
+          <p class="m-w-[567px]">
+            This the first true value generator on the Internet. It uses alphas
+            dictionary of over 200 Latin words.
+          </p>
+          <div class="mt-5">
+            <button
+              class="bg-transparent border border-yellowColor text-white py-4 px-10 transition-all duration-300 button12 hover:bg-yellowColor hover:text-blueColor">
+              Order Today
+            </button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="assets/ico/Photo.png"
+            alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="what_will_you_learn"
+      class="container justify-center mx-auto my-[20%]">
+      <div>
+        <div class="flex flex-col space-y-4">
+          <div class="title text-center">What will you learn?</div>
+          <img
+            src="assets/ico/Sep.svg"
+            alt=""
+            class="mx-auto" />
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="what_will_you_learn"
+      class="justify-center items-center text-center w-screen p-10 mx-auto my-[20%] bg-red-400">
+      <div>
+        <div class="flex flex-col space-y-4">
+          <div class="title text-center">The Chapter includes</div>
+          <img
+            src="assets/ico/Sep.svg"
+            alt=""
+            class="mx-auto" />
+        </div>
+      </div>
+      <div class="justify-center mt-20">
+        <div class="grid grid-cols-5 grid-rows-5 gap-4">
+          <div class="flex flex-col">
+            <div>Chapter- 01 Get Started Intro</div>
+            <p>
+              Making this the first true value generator on the Internet. It of
+              over 200 Latin words, combined with a handful.
+            </p>
+            <div>
+              <div class="flex flex-row space-x-4">
+                <img
+                  src="assets/ico/Point.svg"
+                  alt="" />
+                <span class="flex items-center space-x-4"
+                  ><span>Pages</span>
+                  <p class="mx-2">85 pages</p></span
+                >
+              </div>
+            </div>
+          </div>
+          <div>2</div>
+          <div class="row-start-2">3</div>
+          <div class="row-start-2">4</div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
