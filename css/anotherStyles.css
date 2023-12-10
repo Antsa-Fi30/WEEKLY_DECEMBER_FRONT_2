@@ -162,3 +162,84 @@ p {
     letter-spacing: -0.01em;
     text-align: left;
 }
+
+.padding1 {
+    padding: 121px 230px 121px 230px;
+}
+
+.input {
+    border: 2px solid transparent;
+    width: 529px;
+    height: 65px;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    transition: all 0.5s;
+}
+
+.input:focus {
+    border: 2px solid #4a9dec;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+}
+
+.subscribe {
+    height: 65px;
+    padding: 20px 103px 20px 103px;
+}
+
+.subscribe:hover {
+    background: #ffffff;
+    box-shadow: 0px 0px 50px #1b3764;
+}
+
+.subscribe:active {
+    background: #ffffff;
+    box-shadow: 0px 0px 20px #1b3764;
+    transition-duration: 1ms;
+}
+
+.copyright {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+}
+
+.highlight {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+}
+
+.title-footer {
+    color: #ffffff;
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 23px;
+}
+
+.links-footer {
+    color: #b4c7e7;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: -0.01em;
+    transition: all 0.3s ease-in;
+}
+
+.links-footer:hover {
+    color: #ffca42;
+    text-shadow: 0px 0px 15px #ffca42;
+    transition: all 0.2s ease-out;
+}
